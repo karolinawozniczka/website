@@ -2563,6 +2563,51 @@ textarea.form-control {
     }
 }
 
+/* Moje queries mobilki*/
+
+@media (max-width: 320px) {
+    .btn-hover{
+        padding: 17px 60px!important;
+        width:250px;
+    }
+    .buttonkontakt{
+        margin-left:0;
+        margin: 0 0!important;
+    }
+
+ }
+
+@media (min-width: 321px) and (max-width: 480px) {
+    .btn-hover{
+        padding: 17px 60px!important;
+        width:250px;
+    }
+    .buttonkontakt{
+        margin-left:0;
+        margin: 0 0!important;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 759px) {
+
+    .buttonkontakt{
+        margin-left:0;
+        margin: 0 0!important;
+    }
+
+ }
+
+/* bigger than iPad portrait  */
+@media (min-width:760px) and (max-width:991px) {
+    .buttonkontakt{
+        margin-left:0;
+        margin: 0 0!important;
+    }
+}
+
+
+
 
 /*============================================================
 	Mobile (Portrait) Design for a width of 320px
